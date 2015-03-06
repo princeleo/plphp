@@ -28,22 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="36" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.4563253" vertical-offset="761" max-vertical-offset="1425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/Config/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="9" selection-start="979" selection-end="979" vertical-scroll-proportion="-21.035715" vertical-offset="0" max-vertical-offset="1007">
+            <state line="24" column="36" selection-start="914" selection-end="914" vertical-scroll-proportion="-16.285715" vertical-offset="0" max-vertical-offset="1311">
               <folding />
             </state>
           </provider>
@@ -52,7 +40,43 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/Public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="-4.642857" vertical-offset="383" max-vertical-offset="1045">
+            <state line="15" column="19" selection-start="231" selection-end="242" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1083">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbFactory.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/System/Lib/DbFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="114">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbDriver.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/System/Lib/DbDriver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1162" column="26" selection-start="31280" selection-end="31293" vertical-scroll-proportion="0.33333334" vertical-offset="21870" max-vertical-offset="26980">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Log.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/System/Lib/Log.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="48" selection-start="268" selection-end="296" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="1311">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlowLogMonitor.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/System/Lib/SlowLogMonitor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="64" selection-start="2044" selection-end="2044" vertical-scroll-proportion="-13.571428" vertical-offset="912" max-vertical-offset="1805">
               <folding />
             </state>
           </provider>
@@ -61,7 +85,7 @@
       <file leaf-file-name="App.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/Lib/App.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="39" selection-start="1007" selection-end="1007" vertical-scroll-proportion="-2.5660377" vertical-offset="985" max-vertical-offset="4180">
+            <state line="193" column="29" selection-start="4320" selection-end="4329" vertical-scroll-proportion="-4.0" vertical-offset="3360" max-vertical-offset="4180">
               <folding />
             </state>
           </provider>
@@ -70,25 +94,7 @@
       <file leaf-file-name="Test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/Controller/Test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="13" selection-end="36" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="304">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/System/Lib/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="42" selection-start="1970" selection-end="1970" vertical-scroll-proportion="-4.4905663" vertical-offset="1757" max-vertical-offset="5073">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Project/View/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="247">
+            <state line="8" column="84" selection-start="414" selection-end="422" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -97,7 +103,7 @@
       <file leaf-file-name="UrlManager.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/Lib/UrlManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="0" selection-start="3238" selection-end="3238" vertical-scroll-proportion="-3.1785715" vertical-offset="2932" max-vertical-offset="3648">
+            <state line="142" column="31" selection-start="2923" selection-end="2942" vertical-scroll-proportion="-16.071428" vertical-offset="2248" max-vertical-offset="3648">
               <folding />
             </state>
           </provider>
@@ -113,22 +119,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/System/App.php" />
-        <option value="$PROJECT_DIR$/Project/index.php" />
-        <option value="$PROJECT_DIR$/System/Lib/basic.php" />
         <option value="$PROJECT_DIR$/System/Lib/UrlManager.php" />
         <option value="$PROJECT_DIR$/System/Lib/Log.php" />
         <option value="$PROJECT_DIR$/System/Controller/NotFound.php" />
         <option value="$PROJECT_DIR$/Project/Controller/NotFound.php" />
         <option value="$PROJECT_DIR$/System/Lib/Factory.php" />
-        <option value="$PROJECT_DIR$/Project/Public/index.php" />
         <option value="$PROJECT_DIR$/System/Lib/Controller.php" />
-        <option value="$PROJECT_DIR$/Project/Config/Config.php" />
         <option value="$PROJECT_DIR$/Project/View/test.php" />
-        <option value="$PROJECT_DIR$/Project/Controller/Test.php" />
         <option value="$PROJECT_DIR$/System/Lib/App.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/System/Lib/SlowLogMonitor.php" />
+        <option value="$PROJECT_DIR$/System/Lib/DataBaseDriver.php" />
+        <option value="$PROJECT_DIR$/System/Lib/DBDriver.php" />
+        <option value="$PROJECT_DIR$/Project/Config/Config.php" />
+        <option value="$PROJECT_DIR$/Project/Controller/Test.php" />
+        <option value="$PROJECT_DIR$/Project/Public/index.php" />
+        <option value="$PROJECT_DIR$/System/Lib/DbDriver.php" />
       </list>
     </option>
   </component>
@@ -214,11 +220,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,7 +306,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bcenter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gaopeng" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -365,95 +407,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Project/View/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/View/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Lib/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gaopeng_qq/System/Lib/BitUtils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="488" selection-end="488" vertical-scroll-proportion="0.5120846" vertical-offset="22" max-vertical-offset="2052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gaopeng_qq/System/Lib/Widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="354" selection-end="354" vertical-scroll-proportion="0.66012084" vertical-offset="0" max-vertical-offset="2033" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gaopeng_qq/Tuan/Lib/Xml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.234139" vertical-offset="855" max-vertical-offset="2071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Lib/PdoFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.68882173" vertical-offset="456" max-vertical-offset="1235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/Config/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="9" selection-start="979" selection-end="979" vertical-scroll-proportion="-21.035715" vertical-offset="0" max-vertical-offset="1007">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/System/Lib/Response.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/Public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="-4.642857" vertical-offset="383" max-vertical-offset="1045">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Lib/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="311" selection-end="311" vertical-scroll-proportion="-5.1993957" vertical-offset="3936" max-vertical-offset="4598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Lib/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="39" selection-start="1007" selection-end="1007" vertical-scroll-proportion="-2.5660377" vertical-offset="985" max-vertical-offset="4180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/Controller/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="13" selection-end="36" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Lib/UrlManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="0" selection-start="3238" selection-end="3238" vertical-scroll-proportion="-3.1785715" vertical-offset="2932" max-vertical-offset="3648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Lib/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="42" selection-start="1970" selection-end="1970" vertical-scroll-proportion="-4.4905663" vertical-offset="1757" max-vertical-offset="5073">
           <folding />
         </state>
       </provider>
@@ -463,7 +419,105 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="36" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.4563253" vertical-offset="761" max-vertical-offset="1425">
+        <state line="69" column="61" selection-start="1743" selection-end="1743" vertical-scroll-proportion="-23.346153" vertical-offset="704" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Lib/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="21" selection-start="661" selection-end="661" vertical-scroll-proportion="-16.0" vertical-offset="445" max-vertical-offset="4598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="651" column="9" selection-start="15976" selection-end="15976" vertical-scroll-proportion="0.346875" vertical-offset="12147" max-vertical-offset="20159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Lib/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="42" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.015698588" vertical-offset="1985" max-vertical-offset="5073">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="468" column="9" selection-start="14128" selection-end="14128" vertical-scroll-proportion="0.3466872" vertical-offset="8667" max-vertical-offset="20121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Lib/UrlManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="31" selection-start="2923" selection-end="2942" vertical-scroll-proportion="-16.071428" vertical-offset="2248" max-vertical-offset="3648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Lib/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="29" selection-start="4320" selection-end="4329" vertical-scroll-proportion="-4.0" vertical-offset="3360" max-vertical-offset="4180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/Controller/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="84" selection-start="414" selection-end="422" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Lib/DbFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Lib/SlowLogMonitor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="64" selection-start="2044" selection-end="2044" vertical-scroll-proportion="-13.571428" vertical-offset="912" max-vertical-offset="1805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Lib/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="268" selection-end="296" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/Config/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="36" selection-start="914" selection-end="914" vertical-scroll-proportion="-16.285715" vertical-offset="0" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="945" column="9" selection-start="26974" selection-end="26974" vertical-scroll-proportion="0.4359375" vertical-offset="17676" max-vertical-offset="19304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/Public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="231" selection-end="242" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1083">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Lib/DbDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1162" column="26" selection-start="31280" selection-end="31293" vertical-scroll-proportion="0.33333334" vertical-offset="21870" max-vertical-offset="26980">
           <folding />
         </state>
       </provider>

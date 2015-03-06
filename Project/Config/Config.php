@@ -15,6 +15,22 @@ class Project_Config_Config{
 				'/404/<code>$'                          => 'WTG_Controller_NotFound/default', //404错误页
                 '/test' => 'Project_Controller_Test/', //测试页面
 			),
+
+            //'DbConfig' => 'dbdriver://username:password@hostname/database?char_set=utf8&dbcollat=utf8_general_ci&cache_on=true&cachedir=/path/to/cache'
+            'DbConfig' => array(
+                'hostname' => 'localhost',
+                'username' => 'root',
+                'password' => '',
+                'database' => '',
+                'dbdriver' => 'mysql',
+                'dbprefix' => '',
+                'pconnect' => FALSE,
+                'db_debug' => TRUE,
+                'cache_on' => FALSE,
+                'cachedir' => '',
+                'char_set' => 'utf8',
+                'dbcollat' => 'utf8_general_ci'
+            )
 		);
 	}
 
