@@ -21,3 +21,15 @@ if(!function_exists('pr'))
         echo '</pre>';
     }
 }
+
+
+/**
+ * Set log
+ * @param string $log
+ */
+function log_message($type ='log',$log =  '')
+{
+    if(empty($log) || DEBUG_ENABLE === false) return ;
+
+    @file_put_contents(DEBUG_LOG_PATH.$type.'_'.date('Y-m-d').'.log', $log."\n", FILE_APPEND);
+}

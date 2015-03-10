@@ -6,7 +6,7 @@ class Project_Controller_Test extends System_Lib_Controller{
         //System_Lib_Log::debug('test','test data'); //log
 
         //pr(System_Lib_App::app()->getConfig('DbConfig'));
-        $db = System_Lib_DbDriver::DB(System_Lib_App::app()->getConfig('DbConfig'));pr($db);
+        $db = System_Lib_Driver::DB(System_Lib_App::app()->getConfig('DbConfig'));
         $this->render('test');
     }
 }

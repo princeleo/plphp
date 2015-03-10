@@ -13,7 +13,7 @@ ini_set('mbstring.internal_encoding', "UTF-8");
 session_start();
 
 define('MEMORY_LOG_OPEN',true);//内存日志配置开关
-define('SYSTEM_PATH',dirname(dirname(dirname(__FILE__))).'/');
+define('BASE_PATH',dirname(dirname(dirname(__FILE__))).'/');
 define('PROJECT_PATH', dirname(dirname(__FILE__)).'/');
 define('DEBUG_LOG_PATH',dirname(dirname(__FILE__)).'/Public/debug/');//debug日志目录
 define('SLOW_LOG_PATH',dirname(dirname(__FILE__)).'/Public/monitor/');//内存日志目录
@@ -30,7 +30,7 @@ class Autoload
 {
     public static function load($class) 
     {
-        require_once(SYSTEM_PATH . str_replace('_', '/', $class . '.php'));
+        require_once(BASE_PATH . str_replace('_', '/', $class . '.php'));
     }
 }
 

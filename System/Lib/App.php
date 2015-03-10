@@ -6,7 +6,8 @@
  * Time: 下午14：46
  */
 
-require_once('basic.php');
+define('SYSTEM_PATH',BASE_PATH.'System/');
+require_once(SYSTEM_PATH.'Helpers/basic.php');
 
 final class System_Lib_App{
 	/**

@@ -168,7 +168,7 @@ class System_Lib_Controller
 	 */
 	protected function getViewPath()
 	{
-		return SYSTEM_PATH . "{$this->getPath()}/View/";
+		return BASE_PATH . "{$this->getPath()}/View/";
 	}
 
 	/**
