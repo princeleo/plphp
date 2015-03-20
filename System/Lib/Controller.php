@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * 控制器核心类
+ * Class System_Lib_Controller
+ */
 class System_Lib_Controller
 {
 	const DEFAULT_ACTION_FUNC_NAME_PERFIX = 'default';

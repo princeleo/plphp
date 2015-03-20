@@ -1,4 +1,8 @@
 <?php
+/**
+ * 实例类工厂
+ * Class System_Lib_Factory
+ */
 class System_Lib_Factory
 {
 

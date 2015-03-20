@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * URL请求处理类
+ * Class System_Lib_Request
+ */
 class System_Lib_Request
 {
 
@@ -62,7 +66,7 @@ class System_Lib_Request
         if ($type == self::TYPE_ARRAY) {
             return $array[$name];
         }
-		$value = get_magic_quotes_gpc() ? stripslashes($array[$name]) : $array[$name];
+		$value = !get_magic_quotes_gpc() ? addslashes($array[$name]) : $array[$name];
 		if ($type == self::TYPE_INT)
 		{
 			return intval($value);

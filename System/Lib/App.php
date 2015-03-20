@@ -187,6 +187,15 @@ final class System_Lib_App{
 		return $this->factory()->get('System_Lib_UrlManager');
 	}
 
+    /**
+     *
+     * @return System_Lib_PdoFactory
+     */
+    public function pdo()
+    {
+        return $this->factory()->get('System_Lib_PdoFactory');
+    }
+
 	/**
 	 *
 	 * @param <string> $name

@@ -16,20 +16,22 @@ class Project_Config_Config{
                 '/test' => 'Project_Controller_Test/', //测试页面
 			),
 
-            //'DbConfig' => 'dbdriver://username:password@hostname/database?char_set=utf8&dbcollat=utf8_general_ci&cache_on=true&cachedir=/path/to/cache'
-            'DbConfig' => array(
-                'hostname' => 'localhost',
-                'username' => 'root',
-                'password' => '',
-                'database' => '',
-                'dbdriver' => 'mysql',
-                'dbprefix' => '',
-                'pconnect' => FALSE,
-                'db_debug' => TRUE,
-                'cache_on' => FALSE,
-                'cachedir' => '',
-                'char_set' => 'utf8',
-                'dbcollat' => 'utf8_general_ci'
+            'dbConfig'      => array(
+                'weixin_order'              => array(
+                    'name'   => 'WeixinOrder',
+                    'master' => array(
+                        'dsn'            => 'mysql:dbname=gaopeng;host=localhost;port=3306',
+                        'username'       => 'root',
+                        'password'       => '',
+                        'initStatements' => array('SET NAMES \'utf8\';')
+                    ),
+                    'slave'  => array(
+                        'dsn'            => 'mysql:dbname=gaopeng;host=localhost;port=3306',
+                        'username'       => 'root',
+                        'password'       => '',
+                        'initStatements' => array('SET NAMES \'utf8\';')
+                    )
+                ),
             )
 		);
 	}

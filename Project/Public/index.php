@@ -12,7 +12,8 @@ error_reporting(E_ALL);
 ini_set('mbstring.internal_encoding', "UTF-8");
 session_start();
 
-define('MEMORY_LOG_OPEN',true);//内存日志配置开关
+define('MEMORY_LOG_OPEN',true);//内存日志配置开关，内存使用超过10M的记日志
+define('SLOW_LOG_OPEN',true); //程序运行时间超长日志开关,默认超时200ms则记日志
 define('BASE_PATH',dirname(dirname(dirname(__FILE__))).'/');
 define('PROJECT_PATH', dirname(dirname(__FILE__)).'/');
 define('DEBUG_LOG_PATH',dirname(dirname(__FILE__)).'/Public/debug/');//debug日志目录

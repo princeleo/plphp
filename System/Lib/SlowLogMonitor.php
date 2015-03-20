@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * 增加内存超过MEMORY_LIMIT日志
+ * 增加程序运行超时SLOW_LIMIT，则记日志
+ * Class System_Lib_SlowLogMonitor
+ */
 class System_Lib_SlowLogMonitor
 {
 	private $msg;
