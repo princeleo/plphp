@@ -11,7 +11,13 @@ class Project_Controller_Test extends System_Lib_Controller{
         //$db = System_Lib_Driver::DB(System_Lib_App::app()->getConfig('DbConfig'));
         //System_Lib_App::app()->recordRunTime('mkdfkdj');
         //System_Lib_App::app()->exceptions()->show_error('333','kkk');
-        $getItem = Project_BModel_Test::getItem();pr($getItem);die;
+
+        //连接DB，并且返回所取得数据
+        //$getItem = Project_BModel_Test::getItem();pr($getItem);die;
+
+        //添加插件
+        //$this->widget(new Project_Widget_Comment());
+
         $this->render('test');
     }
 }
