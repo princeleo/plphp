@@ -69,5 +69,7 @@
                                         |
                                         |----method,具体对应的功能实现
                                                         |---Controller 控制器
+                                                        |       |---selfInterceptors    配置拦截器
+                                                        |       |---
                                                         |---Modle  请求数据源/API
                                                                     |---DbDriver

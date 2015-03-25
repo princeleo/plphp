@@ -20,4 +20,8 @@ class Project_Controller_Test extends System_Lib_Controller{
 
         $this->render('test');
     }
+
+    public function beforeAction(){
+        die('kk');
+    }
 }
